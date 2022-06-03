@@ -1,0 +1,29 @@
+h1{
+    font-style: italic;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "leftbar main rightbar "
+        "bottomleftbar li"
+        "bottomleftbar li"
+        "bottomleftbar li"
+        "bottomleftbar li"
+        "bottomleftbar li"
+    ;
+    grid-gap:70px
+
+}
+main{
+    
+
+}
+
+
+
+
+
+
